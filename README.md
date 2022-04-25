@@ -2,13 +2,13 @@
 I decided to work on a Self Care app named Float.
 
 My application is meant to provide users with several activities that help relieve stress and calm them down.
----
+
 ## Home Screen
 Upon entering the page, the user is brought to a home screen which displays the title of the application along with a short description. There is also text 'Hello!' containing an ```onPress()``` function that brings them over to the Form Screen.
----
+
 ## Form Screen 
 Once the user is brought to the Form Screen after pressing 'Hello!' in the last screen they're met with text calling for their name along with an ```Input``` that allows them to enter their name. The value of this ```Input``` is then stored through ```onChange={event => setName(event.target.value)``` which is then passed onto the Main Screen. Upon pressing 'Enter' the user is then redirected to the Main Screen.
----
+
 ## Main Screen
 After the last ```onPress()``` the user was redirected to this Main Screen. At the top the title 'Welcome $name!' is displayed, showing the name value that the user entered on the Form Screen. A grid is then rendered containing the values of ```title: item.title, image: item.image, and name: name``` which pass in the title and image url from the array **data** and ensure that the stored $name is kept in the 'Welcome' title upon returning to the Main Screen. 
 
