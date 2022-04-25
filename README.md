@@ -26,7 +26,6 @@ The title, image, and name are passed in through ```route.params``` to display t
 ### Release
 The title, image, and name are passed in through ```route.params``` to display the activity's title, image, and maintain the name value upon returning to the Main Screen. ```Text``` is displayed to add in a short description of the activity. Through ```useState()``` I was able to change the value of the 'TextInput' by setting the value to ```{val}``` and the ```onPress()``` of button 'Send Off' to ```setVal() => ""```. In doing so, the user's text input is erased upon pressing the button and they're alerted that their "Worries have drifted away." Another button 'Home' is shown with an ```onPress()``` that navigates the user back to the Main Screen.
 
----
 ## Profile Screen
 The user can also access the Profile Screen through the bottom navigation and be directed to a screen  
 which displays a welcome text with the user's name (sent in through the ```onPress()``` on Profile button in the Main Screen). An avatar is also shown with a call for the user to rate their mood on a scale of 1-5 stars with reviews ranging from Terrible, Bad, Okay, Good, and Great. Another button 'Home' is shown with an ```onPress()``` that navigates the user back to the Main Screen.
