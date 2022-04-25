@@ -34,3 +34,4 @@ which displays a welcome text with the user's name (sent in through the ```onPre
 ---
 Link to GitHub pages site:
 
+http://nnoguez.github.io/expo-gh-pages
